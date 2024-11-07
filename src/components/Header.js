@@ -99,7 +99,7 @@ const Header = () => {
             <Link component={RouterLink} to="/online-forms" underline="none" sx={{ color: 'white' }}>
               <Typography variant="body1">Online Forms</Typography>
             </Link>
-            <Link href="#about" color="inherit" underline="none" sx={{ color: 'white' }}>
+            <Link href="/about-us" color="inherit" underline="none" sx={{ color: 'white' }}>
               <Typography variant="body1">About</Typography>
             </Link>
           </Box>
