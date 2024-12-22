@@ -19,7 +19,7 @@ const ServiceHighlights = () => (
   <Box sx={{ textAlign: 'center', my: 4, p: 2 }}>
     {/* Introductory Text */}
     <Typography variant="h6" sx={{ mb: 4, mx: 'auto', textAlign: 'justify', width: '70%' }}>
-      Aspire Behavioral Health is dedicated to providing high-quality mental health services with fast access for the people of Minnesota. Whether you need help managing depression, anxiety, or another mental health condition, we’re here for you. Call 'ADD_NUMBER_HERE' or click here to Book Online to be seen within 1-3 days.
+    At Aspire Behavioral Health, our mission is to provide compassionate, personalized psychiatric care that empowers individuals to achieve mental wellness. We are dedicated to utilizing evidence-based treatments and holistic approaches to help our patients reach their full potential and live fulfilling, balanced lives. Our providers are licensed in Minnesota and Texas. Please call us at 210-866-9850 to schedule your appointment.
     </Typography>
 
     {/* Service Boxes */}

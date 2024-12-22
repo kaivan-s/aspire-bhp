@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import ServiceHighlights from './components/ServiceHighlights';
-import WhyChooseUs from './components/WhyChooseUs';
+import Contact from './components/Contact';
 import About from './components/About';
 import Footer from './components/Footer';
 import Psychiatry from './/Management/psychiatry';
@@ -32,6 +32,7 @@ function App() {
             <Route path="/telehealth" element={<Telehealth />} />
             <Route path="/online-forms" element={<Form />} />
             <Route path='/about-us' element={<About/>}/>
+            <Route path='/contact-us' element={<Contact/>}/>
           </Routes>
         </Box>
         <Footer />

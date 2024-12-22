@@ -10,7 +10,6 @@ const Form = () => (
     </Box>
     <Box sx={{textAlign:'justify', p:2}}>
         <Typography variant="body1">
-        You can now fill your new and follow-up patient paperwork online from the comfort of your home. Click on the appropriate boxes below to access "online forms" which you can fill from any computer or mobile device. Please complete these forms 24 hours prior to meeting your provider online. Call 651-358-7020 or click here to Book Online to be seen within 1-3 days. Take the first step toward better mental health today.   
         </Typography>
     </Box>
 
@@ -29,7 +28,7 @@ const Form = () => (
         fullWidth
         variant="outlined"
         sx={{ backgroundColor: 'slategrey', color: 'white', mt: 5, mb: 5, width: '25%' }}
-        href="https://example.com/phq9"
+        href="https://app.formdr.com/practice/NDIwNzM=/form/ZAlHhd2-m36A_AETfJ8qDMypuCh3D5l7"
         target="_blank"
       >
         NEW PATIENT FORM
@@ -37,38 +36,38 @@ const Form = () => (
     </Box>
 
     {/* Miscellaneous Forms Section */}
-    <Box sx={{ mt: 3, backgroundColor: '#3a4c17',  p: 2 }}>
+    <Box sx={{ mt: 3, backgroundColor: '#3a4c17',  p: 5 }}>
       <Typography variant="h5" gutterBottom sx={{color:'white'}} fontWeight='bold'>
         Miscellaneous Forms
       </Typography>
       <Grid container spacing={2} justifyContent="center" sx={{mt:3}}>
         <Grid item xs={12} sm={6} md={6}>
-          <Button fullWidth variant="outlined" sx={{ backgroundColor: 'slategrey', color: 'white', height:'100%',width:'50%'  }} href="https://example.com/phq9" target="_blank">
+          <Button fullWidth variant="outlined" sx={{ backgroundColor: 'slategrey', color: 'white', height:'100%',width:'50%'  }} href="https://app.formdr.com/practice/NDIwNzM=/form/_WXYigCUqLo3doiPKP7IewOQ9_gS7Lns" target="_blank">
             Patient Health Questionnaire (PHQ-9)
           </Button>
         </Grid>
         <Grid item xs={12} sm={6} md={6}>
-          <Button fullWidth variant="outlined" sx={{ backgroundColor: 'slategrey', color: 'white',height:'100%', width:'50%' }} href="https://example.com/mdq" target="_blank">
+          <Button fullWidth variant="outlined" sx={{ backgroundColor: 'slategrey', color: 'white',height:'100%', width:'50%' }} href="https://app.formdr.com/practice/NDIwNzM=/form/V7pjFUdyFcLskcqwm6gqZ7Q_3ocYxl_m" target="_blank">
             Mood Disorder Questionnaire (MDQ)
           </Button>
         </Grid>
         <Grid item xs={12} sm={6} md={6}>
-          <Button fullWidth variant="outlined" sx={{ backgroundColor: 'slategrey', color: 'white',height:'100%', width:'50%'  }} href="https://example.com/gad7" target="_blank">
+          <Button fullWidth variant="outlined" sx={{ backgroundColor: 'slategrey', color: 'white',height:'100%', width:'50%'  }} href="https://app.formdr.com/practice/NDIwNzM=/form/Mz-AJK6rU6iI-6I0z4FA8rc_igej0p2i" target="_blank">
             General Anxiety Disorder (GAD-7)
           </Button>
         </Grid>
         <Grid item xs={12} sm={6} md={6}>
-          <Button fullWidth variant="outlined" sx={{ backgroundColor: 'slategrey', color: 'white',height:'100%', width:'50%'  }} href="https://example.com/csa" target="_blank">
+          <Button fullWidth variant="outlined" sx={{ backgroundColor: 'slategrey', color: 'white',height:'100%', width:'50%'  }} href="https://app.formdr.com/practice/NDIwNzM=/form/rezDKF4ZElaw2SaAchlcuSlB8NLs6c8a" target="_blank">
             Controlled Substance Agreement
           </Button>
         </Grid>
         <Grid item xs={12} sm={6} md={6}>
-          <Button fullWidth variant="outlined" sx={{ backgroundColor: 'slategrey', color: 'white',height:'100%', width:'50%'  }} href="https://example.com/doc-submission" target="_blank">
+          <Button fullWidth variant="outlined" sx={{ backgroundColor: 'slategrey', color: 'white',height:'100%', width:'50%'  }} href="https://app.formdr.com/practice/NDIwNzM=/form/Jx_S9V5TvHLq8JObKwCftst2jFzMRh80" target="_blank">
             Document Submission Form
           </Button>
         </Grid>
         <Grid item xs={12} sm={6} md={6}>
-          <Button fullWidth variant="outlined" sx={{ backgroundColor: 'slategrey', color: 'white',height:'100%', width:'50%'  }} href="https://example.com/release-phi" target="_blank">
+          <Button fullWidth variant="outlined" sx={{ backgroundColor: 'slategrey', color: 'white',height:'100%', width:'50%'  }} href="https://app.formdr.com/practice/NDIwNzM=/form/SJWkwSAHjHcBCv4JmyYK1WVYOOwLMTR7" target="_blank">
             Authorization to Release PHI
           </Button>
         </Grid>

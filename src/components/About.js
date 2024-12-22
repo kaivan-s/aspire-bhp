@@ -4,7 +4,7 @@ import { Box, Typography, Card, CardContent, Button, Grid, Dialog, DialogTitle, 
 
 const services = [
     {
-      title: 'Mukesh Kumar, MD',
+      title: 'Mahesh Kumar, MD',
       description: `Board Certified Psychiatrist `,
       link: '/psychiatry',
     },
@@ -34,11 +34,12 @@ const About = () => {
         comprehensive range of services, integrating holistic and innovative approaches to enhance clinical outcomes
         while reducing healthcare costs.
         We are passionate about improving access to essential psychiatric services and addressing the mental health
-        needs of our community. Our approach is centered on engaging patients in their own treatment plans, ensuring
+        needs of our community. 
+        Our approach is centered on engaging patients in their own treatment plans, ensuring
         they receive the necessary education and understanding of their conditions. By setting personalized
         rehabilitation goals, we aim to improve overall functioning and quality of life.
-        Discover how Aspire Behavioral Health can support your mental wellness journey. Call us at PHONE
-        NUMBER to schedule your appointment today.
+        Discover how Aspire Behavioral Health can support your mental wellness journey. Call us at 210-866-9850 
+        to schedule your appointment today.
       </Typography>
 
       <Box sx={{ p: 4 }}>

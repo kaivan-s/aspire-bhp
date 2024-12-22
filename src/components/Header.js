@@ -102,6 +102,9 @@ const Header = () => {
             <Link href="/about-us" color="inherit" underline="none" sx={{ color: 'white' }}>
               <Typography variant="body1">About</Typography>
             </Link>
+            <Link href="/contact-us" color="inherit" underline="none" sx={{ color: 'white' }}>
+              <Typography variant="body1">Contact Us</Typography>
+            </Link>
           </Box>
         )}
 

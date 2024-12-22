@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography, List, ListItem, ListItemText } from '@mui/material';
-import psychiatryBackground from '../assets/homepage.png';
+import psychiatryBackground from '../assets/psychiatry.png';
 
 const Psychiatry = () => (
   <>
@@ -23,7 +23,10 @@ const Psychiatry = () => (
     <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', textAlign: 'justify', p: 2 }}>
       <Typography variant="h4" gutterBottom>Our Approach</Typography>
       <Typography variant="body1" sx={{ maxWidth: '800px' }}>
-        At Aspire Behavioral Health, we understand that mental health is not one-size-fits-all. Our team of board-certified psychiatrists and mental health professionals offers compassionate, personalized care tailored to each patient's unique needs. With extensive experience in diverse healthcare settings, our providers utilize evidence-based treatments to achieve sustainable, high-quality outcomes. We accept most major insurance plans. Please call 651-358-7020 or click here to Book Online to be seen within 1-3 days. Take the first step toward better mental health today.
+      At Aspire Behavioral Health, we believe that mental health care should be as unique as each individual. Our team of board-certified psychiatrists and mental health professionals is committed to delivering personalized, compassionate care that addresses your specific needs. Drawing on extensive experience across diverse healthcare settings, we use evidence-based treatments to ensure effective and lasting results.
+      <br/>
+      <br/>
+      We accept most major insurance plans and strive to offer timely access to care. To schedule your appointment, please call us at 210-866-9850. Start your journey toward better mental health with Aspire Behavioral Health today.
       </Typography>
     </Box>
 
@@ -55,13 +58,20 @@ const Psychiatry = () => (
       <Typography variant="h4" gutterBottom>Our Services</Typography>
     </Box>
     <Box sx={{ display: 'flex', flexDirection: 'column', textAlign: 'justify', width:'50%', ml:"25%",p:2 }}>
-      <Typography variant="h5" gutterBottom>Medical Management</Typography>
-      <Typography>Mental health disorders can affect anyone, regardless of age or background. While some conditions may be severe, others can be treated with psychotherapeutic medications, leading to a significant improvement in quality of life. These medications can also enhance the effectiveness of other forms of treatment, such as therapy. Thanks to clinical research and advances in mental health, specific causes of mental illnesses have been identified, and tailored medications have been developed to treat them. Since not all patients respond to medications the same way, our team of highly trained psychiatrists develops customized treatment plans unique to each individual patient. At our clinic, we work closely with our patients to create a care plan that is agreed upon by both parties, promoting the highest quality outcomes. Meet with Summit Behavioral Health psychiatric providers today and start your journey towards recovery.</Typography>
+      <Typography variant="h5" gutterBottom>Medication Management</Typography>
+      <Typography>At Aspire Behavioral Health, we understand that mental health disorders can affect anyone, regardless of age or background. While some conditions may feel overwhelming, others respond well to psychotherapeutic medications that can significantly enhance quality of life. These medications not only alleviate symptoms but can also amplify the benefits of other treatments, such as therapy.
+<br/><br/>
+Thanks to ongoing clinical research and advancements in psychiatry, we now better understand the underlying causes of many mental health conditions. This progress has enabled the development of medications specifically tailored to address various mental health challenges. However, we recognize that every individual is unique, and not all patients respond to medications in the same way.
+<br/><br/>
+That’s why our highly trained psychiatrists take a personalized approach to care. We work collaboratively with each patient to develop customized treatment plans tailored to their specific needs, preferences, and goals. At Aspire, we believe in shared decision-making, ensuring that every care plan is created with mutual agreement to promote the best possible outcomes.
+<br/><br/>
+Take the first step toward a healthier, more fulfilling life. Schedule an appointment with Aspire Behavioral Health today and let our compassionate team guide you on your journey to recovery.
+</Typography>
     </Box>
-    <Box sx={{  display: 'flex', flexDirection: 'column', textAlign: 'justify', width:'50%', ml:"25%",p:2 }}>
+    {/* <Box sx={{  display: 'flex', flexDirection: 'column', textAlign: 'justify', width:'50%', ml:"25%",p:2 }}>
       <Typography variant="h5" gutterBottom>PSYCHOTHERAPY</Typography>
       <Typography>Talk therapy, also known as counseling, is a form of psychotherapy that involves a trained mental health professional providing guidance and support to an individual in order to help them overcome a variety of mental health challenges. These challenges can include anxiety, depression, relationship issues, and more. Through talk therapy, individuals can work to understand and process their emotions, improve their coping skills, and gain a deeper understanding of themselves and their experiences. Talk therapy can be provided in a variety of settings, including individual, group, or family sessions, and can be delivered by licensed therapists, psychologists, or other mental health professionals. At Summit Behavioral Health, we offer a range of talk therapy services that are tailored to meet the unique needs of each individual, and are delivered in a compassionate and non-judgmental manner.</Typography>
-    </Box>
+    </Box> */}
   </>
 );
 
