@@ -1,5 +1,6 @@
 import React from 'react';
-import { Box, Typography } from '@mui/material';
+import { Box, Typography, Link as MuiLink } from '@mui/material';
+import { Link } from 'react-router-dom';
 import PhoneIcon from '@mui/icons-material/Phone';
 import PrintIcon from '@mui/icons-material/Print';
 import EmailIcon from '@mui/icons-material/Email';
@@ -10,47 +11,44 @@ const Footer = () => (
     sx={{ 
       p: 2, 
       bgcolor: 'black', 
-      color: 'white', 
-      textAlign: 'center' 
+      color: 'white'
     }}
   >
-    {/* Top Row: Address on left, Phone/Fax/Email on right */}
+    {/* Container for all three sections (left/center/right) */}
     <Box
       sx={{
         display: 'flex',
         flexWrap: 'wrap',
-        justifyContent: 'space-between',  // Space between columns
+        justifyContent: 'space-between',
         alignItems: 'center',
-        gap: 5,
+        gap: 2, // space between items on small screens
       }}
     >
-      {/* Left Column: Address */}
+      {/* Left: Address */}
       <Box
         sx={{
           display: 'flex',
           alignItems: 'center',
-          gap: 1,
-          flex: '1 1 300px', // ensures it can shrink/grow but has min width
-          justifyContent: { xs: 'center',},
+          gap: 1
         }}
       >
         <LocationOnIcon />
-        <Typography variant="body2" textAlign={'justify'} letterSpacing={1}>
+        <Typography variant="body2" textAlign="left">
           Aspire Behavioral Health
-          <br/>
-          14855 Blanco Rd, Suite 355, 
-          <br/>San Antonio, TX, 78216
+          <br />
+          14855 Blanco Rd, Suite 355,
+          <br />
+          San Antonio, TX, 78216
         </Typography>
       </Box>
 
-      {/* Right Column: Phone, Fax, Email */}
+      {/* Center: Phone, Fax, Email */}
       <Box
         sx={{
           display: 'flex',
-          flexDirection:'column',
-          gap: 2,
-          alignItems:'flex-start',
-          flex: '1 1 300px', // ensures it can shrink/grow but has min width
+          flexDirection: 'column',   // stack phone/fax/email vertically
+          alignItems: 'center',
+          gap: 1
         }}
       >
         {/* Phone */}
@@ -94,6 +92,20 @@ const Footer = () => (
             admin@aspirebhp.com
           </Typography>
         </Box>
+      </Box>
+
+      {/* Right: Privacy Policy Link */}
+      <Box sx={{ textAlign: 'right' }}>
+        <MuiLink
+          component={Link}
+          to="/privacy"
+          sx={{ 
+            color: 'white', 
+            textDecoration: 'underline' 
+          }}
+        >
+          Privacy Policy
+        </MuiLink>
       </Box>
     </Box>
   </Box>

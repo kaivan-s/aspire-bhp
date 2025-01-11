@@ -8,6 +8,7 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Psychiatry from './/Management/psychiatry';
 import Telehealth from './/Management/telehealth';
+import PrivacyPolicy from './components/Privacy';
 import Form from './/forms/Form'
 import Box from '@mui/material/Box';
 
@@ -33,6 +34,7 @@ function App() {
             <Route path="/online-forms" element={<Form />} />
             <Route path='/about-us' element={<About/>}/>
             <Route path='/contact-us' element={<Contact/>}/>
+            <Route path="/privacy" element={<PrivacyPolicy />} />
           </Routes>
         </Box>
         <Footer />
